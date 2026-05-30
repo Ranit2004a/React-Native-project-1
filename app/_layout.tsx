@@ -7,7 +7,7 @@ export default function RootLayout() {
   return( 
     <SafeAreaView style ={{ flex: 1, backgroundColor: "white"}}> 
       <View style = {{padding:16}} >
-      <Text>hello from Ranit  </Text>
+      <Text>hello from Ranit 1  </Text>
 
       <TextInput
         placeholder="Search city.."
