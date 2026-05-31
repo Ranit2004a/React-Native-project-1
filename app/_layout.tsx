@@ -1,28 +1,10 @@
-import { Stack } from "expo-router";
-import { Text, TextInput, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import "../global.css"
+import { Slot } from "expo-router";
 
 
 export default function RootLayout() {
   return( 
-    <SafeAreaView style ={{ flex: 1, backgroundColor: "white"}}> 
-      <View style = {{padding:16}} >
-      <Text>hello from Ranit 1  </Text>
-
-      <TextInput
-        placeholder="Search city.."
-        placeholderTextColor="gray"
-        style={{
-          borderWidth: 1,
-          borderColor: "gray",
-          backgroundColor: "lightgray",
-          padding: 8,
-          borderRadius: 8,
-          marginBottom: 16,
-        }}
-      />
-      </View>
-    </SafeAreaView>
+   <Slot/>
   );
   
   
